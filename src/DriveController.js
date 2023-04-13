@@ -56,7 +56,7 @@ function DriveController(props) {
     let rosDriveTopic;
     useEffect(() => {
         ros = new roslib.Ros({
-            url: 'ws://localhost:9090'
+            url: 'ws://35.3.121.101:9090'
         })
         rosDriveTopic  = new roslib.Topic({
             ros: ros,
